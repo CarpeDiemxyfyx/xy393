@@ -1,0 +1,524 @@
+
+<!-- saved from url=(0029)https://www.yishuzi.cn/shufa/ -->
+<html lang="zh-cn"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body id="index" style="background: url(&quot;&quot;) repeat rgb(249, 249, 249);" class="">﻿
+
+
+	<meta http-equiv="Cache-Control" content="no-transform">
+	<meta http-equiv="Cache-Control" content="no-siteapp">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>毛笔字在线生成器_毛笔书法字体在线转换器</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="shortcut icon" href="https://www.yishuzi.cn/shufa/favicon.ico">
+	<link rel="bookmark" href="https://www.yishuzi.cn/shufa/favicon.ico">
+	<link href="./题2_files/bootstrap.min.css" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="./题2_files/style.css">
+        <link href="./题2_files/footer.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="”alternate”" type="”application/vnd.wap.xhtml+xml”" media="”handheld”" href="https://www.yishuzi.cn/shufa/%E2%80%9Dtarget%E2%80%9D/"> 	
+
+
+
+	<nav class="navbar qt86-navbar navbar-default navbar-fixed-top" style="background-color:#0072bc; border-color:#0072bc"><!--default、inverse navbar-fixed-top-->
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+          <a class="navbar-brand" title="艺术字体在线生成" href="https://www.yishuzi.cn/">
+        <img alt="yishuzi.cn" src="./题2_files/logo.png" height="30">
+      </a>
+    </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+<li class="active"><a href="https://www.yishuzi.cn/" title="艺术字在线转换器">艺术字体</a></li>
+<li><a href="https://www.yishuzi.cn/huati/" target="_parent" title="花体字在线生成器">花体</a></li>
+<li><a href="http://yw.yishuzi.cn/" target="_parent" title="英文字在线生成器">英文</a></li>
+<li><a href="http://yw.yishuzi.cn/indexhuati.php" target="_parent" title="英文字在线生成器">英文花体</a></li>
+<li><a href="https://www.yishuzi.cn/zhuanti/" target="_parent" title="篆体字在线生成器">篆体</a></li>
+<li><a href="https://www.yishuzi.cn/qianming/" target="_parent" title="签名在线生成器">签名字</a></li>
+<li><a href="https://www.yishuzi.cn/shejishi/" target="_parent" title="精选艺术字在线生成器">精选</a></li>
+<li><a href="https://www.yishuzi.cn/shufa/" target="_parent" title="草书字体在线生成器">书法字</a></li>
+<li><a href="https://www.yishuzi.cn/changyong.php" target="_parent" title="经典字体在线生成器">经典</a></li>
+<li><a href="https://www.yishuzi.cn/alibaba/" target="_parent" title="阿里巴巴普惠字体">阿里普惠体</a></li>
+<li><a href="https://www.yishuzi.cn/works/Fonteffects" target="_blank" title="字体特效">字体特效</a></li>
+<li><a href="https://www.yishuzi.cn/works/enfonts" target="_blank" title="英文字体下载">英文字体下载</a></li>
+<li><a href="https://www.yishuzi.cn/works/zhfonts" target="_blank" title="中文字体下载">中文字体下载</a></li>
+<li><a href="https://www.yishuzi.cn/works/graphic" target="_blank" title="平面设计素材">平面设计素材</a></li>
+
+<!-- 底部分类导航 -->			
+	
+  </ul></div>
+</div></nav>
+
+	<div class="container-fluid">
+		<div class="container"><div class="panel panel-default" id="display_image" style="">
+  <div class="panel-heading"><span aria-hidden="true"></span> 满意，请右键点击效果图另存为到本地欣赏。</div>
+  <div> <img id="SaveImg" src="./题2_files/image.png"> </div>
+</div>
+<div class="btn-group btn-group-justified" role="group">
+  <div class="btn-group" role="group">
+    <button type="button" id="switchLeft" class="btn btn-default" style="background-color:#222222; border-color:#222222">上一个书法字体</button>
+  </div>
+
+  <div class="btn-group" role="group">
+    <button type="button" id="switchRight" class="btn btn-default" style="background-color:#222222; border-color:#222222">下一个书法字体</button>
+  </div>
+</div>
+<br>
+
+
+
+<div class="panel panel-default">
+  <div class="panel-heading"><span aria-hidden="true"></span> 请在下面输入文字后点击生成书法字体效果</div>
+  <div class="panel-body">
+    <form id="form" name="form" class="form-inline" method="post">
+      <input name="text" id="text" class="form-control" row="5" placeholder="输入文字后，选择字体属性，点击生成即可！">
+      <div class="row">
+        <div class="form-group col-xs-12 col-sm-4 col-md-3 col-lg-3">
+          <div class="input-group">
+            <div class="input-group-addon">字体</div>
+            <select name="ziti" id="ziti" class="form-control">
+			<option font_id="12" value="gaoxiaofeng.ttf">禚效锋行草</option><option font_id="11" value="yuzuoren.ttf">于右任字体</option><option font_id="10" value="xdzmt.otf">新蒂赵孟頫楷书</option><option font_id="9" value="m2a.ttf">田氏颜真卿书法</option><option font_id="8" value="qigongti.ttf">启功体</option><option font_id="7" value="miditi.ttf">米芾毛笔书法</option><option font_id="6" value="sutong.ttf">经典舒同体</option><option font_id="5" value="m1.ttf">柳功权柳体</option><option font_id="4" value="zhongshan.ttf">中山行书字体</option><option font_id="3" value="dengxiaoping.ttf">书体坊邓小平字体</option><option font_id="2" value="yegenyou.ttf">叶根友书法</option><option font_id="1" value="maozedong.ttf">毛泽东字体</option>			</select>
+          </div>
+        </div>
+		
+        <div class="form-group col-xs-12 col-sm-4 col-md-2 col-lg-2">
+          <div class="input-group">
+            <div class="input-group-addon">字体下色</div>
+            <input style="width:97px" id="vcolor" name="vcolor" type="text" value="111" class="form-control" data-toggle="modal" data-target="#xiabanse">
+          </div>
+        </div>
+		
+        <div class="form-group col-xs-12 col-sm-4 col-md-2 col-lg-2">
+          <div class="input-group">
+            <div class="input-group-addon">字体上色</div>
+            <input style="width:97px" id="fontcolor" name="fontcolor" type="text" value="#111" class="form-control" data-toggle="modal" data-target="#FontColorModal">
+          </div>
+        </div>
+        <div class="form-group col-xs-12 col-sm-4 col-md-2 col-lg-2">
+          <div class="input-group">
+            <div class="input-group-addon">字体背景</div>
+            <input style="width:97px" id="colors" name="colors" type="text" value="#fff" class="form-control" data-toggle="modal" data-target="#BackgroundColorModal">
+          </div>
+        </div>  
+		
+		<div class="form-group col-xs-12 col-sm-4 col-md-3 col-lg-2">
+          <div class="input-group">
+            <div class="input-group-addon">字体大小</div>
+            <select style="width:97px" name="sizes" id="sizes" class="form-control">
+			  <option value="30" selected="">30</option>
+              <option value="40">40</option>
+              <option value="50">50</option>
+			  <option value="70">70</option>
+			  <option value="80">80</option>
+			  <option value="90">90</option>
+			  <option value="100">100</option>
+			  <option value="110">110</option>
+			  <option value="120">120</option>
+			  <option value="130">130</option>
+			  <option value="140">140</option>
+			  <option value="150">150</option>
+			  <option value="160">160</option>
+			  <option value="170">170</option>
+            </select>
+          </div>
+        </div>
+
+		<div class="form-group col-xs-12 col-sm-4 col-md-3 col-lg-2">
+          <div class="input-group">
+            <div class="input-group-addon">字体倒影</div>
+            <select style="width:97px" name="mirror" id="mirror" class="form-control">
+              <option value="yes">开</option>
+			  <option value="no" selected="">关</option>
+            </select>
+          </div>
+        </div>
+
+	
+
+		<div class="form-group col-xs-12 col-sm-4 col-md-3 col-lg-2">
+          <div class="input-group">
+            <div class="input-group-addon">字体渐变</div>
+            <select style="width:97px" name="alpha" id="alpha" class="form-control">
+              <option value="yes">开</option>
+			  <option value="no" selected="">关</option>
+            </select>
+          </div>
+        </div>
+<br>
+		<div class="form-group col-xs-12 col-sm-4 col-md-3 col-lg-2">
+          <div class="input-group">
+            <div class="input-group-addon">字体投影</div>
+            <select style="width:97px" name="shadow" id="shadow" class="form-control">
+              <option value="yes">开</option>
+			  <option value="no" selected="">关</option>
+            </select>
+          </div>
+        </div>
+
+
+        <div class="form-group col-xs-12 col-sm-4 col-md-2 col-lg-2 pull-right">
+          <div class="btn-group">
+            <button type="button" class="btn btn-primary submit" style="background-color:#ee105a; border-color:#ee105a">点击生成</button>
+          </div>  
+        </div>
+      </div>
+      <input type="hidden" name="if_demo" id="if_demo_value" value="show">
+    </form>
+  </div>
+</div>
+
+<div class="container"><div class="panel panel-default center-block text-center">
+<!--  中间信息 -->
+<style type="text/css">
+.one{ 
+height: auto; 
+width: auto\9; 
+max-width:350px;
+width:100%; 
+} 
+.two{ 
+height: auto;
+text-align:center;
+width: auto\9; 
+max-width:1120px;
+width:100%; 
+} 
+.san{ 
+height: auto;
+text-align:center;
+width: auto\9; 
+max-width:1150px;
+width:100%; 
+} 
+</style>
+
+
+<p style="margin-top:10px">
+	<a href="https://www.25xt.com/works/tucengyangshi/category-font?from=yishuzi1" target="_blank"><img src="./题2_files/25xtfonts3.jpg" alt="25xtcom" class="san">  </a> 
+</p>
+
+
+
+</div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading"><span aria-hidden="true"></span> 点字体图片快速生成书法字体效果</div>
+  <div class="panel-body">
+
+<div class="row demolist">
+	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+					<div class="thumbnail">
+					  <a href="javascript:void(0);" class="setfont" data-id="1" role="button" style="background-color:#222222; border-color:#222222"> <img style="width: 221px; height: 110px; display: block;" class="lazy" data-original="./showImage/20160201/56af38194b07e.gif" title="禚效锋行草" src="./题2_files/56af38194b07e.gif"></a>					  
+					  <div class="caption">
+					  <p align="center"><b>禚效锋行草</b></p>
+					  </div>
+					</div>
+				  </div><div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+					<div class="thumbnail">
+					  <a href="javascript:void(0);" class="setfont" data-id="1" role="button" style="background-color:#222222; border-color:#222222"> <img style="width: 221px; height: 110px; display: block;" class="lazy" data-original="./showImage/20160201/56af380d4abaa.gif" title="于右任字体" src="./题2_files/56af380d4abaa.gif"></a>					  
+					  <div class="caption">
+					  <p align="center"><b>于右任字体</b></p>
+					  </div>
+					</div>
+				  </div><div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+					<div class="thumbnail">
+					  <a href="javascript:void(0);" class="setfont" data-id="1" role="button" style="background-color:#222222; border-color:#222222"> <img style="width: 221px; height: 110px; display: block;" class="lazy" data-original="./showImage/20160201/56af37ff50b68.gif" title="新蒂赵孟頫楷书" src="./题2_files/56af37ff50b68.gif"></a>					  
+					  <div class="caption">
+					  <p align="center"><b>新蒂赵孟頫楷书</b></p>
+					  </div>
+					</div>
+				  </div><div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+					<div class="thumbnail">
+					  <a href="javascript:void(0);" class="setfont" data-id="1" role="button" style="background-color:#222222; border-color:#222222"> <img style="width: 221px; height: 110px; display: block;" class="lazy" data-original="./showImage/20160201/56af37f192171.gif" title="田氏颜真卿书法" src="./题2_files/56af37f192171.gif"></a>					  
+					  <div class="caption">
+					  <p align="center"><b>田氏颜真卿书法</b></p>
+					  </div>
+					</div>
+				  </div><div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+					<div class="thumbnail">
+					  <a href="javascript:void(0);" class="setfont" data-id="1" role="button" style="background-color:#222222; border-color:#222222"> <img style="width:221px;height:110px;" class="lazy" data-original="./showImage/20160201/56af37df48b5a.gif" title="启功体" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"></a>					  
+					  <div class="caption">
+					  <p align="center"><b>启功体</b></p>
+					  </div>
+					</div>
+				  </div><div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+					<div class="thumbnail">
+					  <a href="javascript:void(0);" class="setfont" data-id="1" role="button" style="background-color:#222222; border-color:#222222"> <img style="width:221px;height:110px;" class="lazy" data-original="./showImage/20160201/56af37d31e709.gif" title="米芾毛笔书法" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"></a>					  
+					  <div class="caption">
+					  <p align="center"><b>米芾毛笔书法</b></p>
+					  </div>
+					</div>
+				  </div><div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+					<div class="thumbnail">
+					  <a href="javascript:void(0);" class="setfont" data-id="1" role="button" style="background-color:#222222; border-color:#222222"> <img style="width:221px;height:110px;" class="lazy" data-original="./showImage/20160201/56af37c2b0e5e.gif" title="经典舒同体" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"></a>					  
+					  <div class="caption">
+					  <p align="center"><b>经典舒同体</b></p>
+					  </div>
+					</div>
+				  </div><div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+					<div class="thumbnail">
+					  <a href="javascript:void(0);" class="setfont" data-id="1" role="button" style="background-color:#222222; border-color:#222222"> <img style="width:221px;height:110px;" class="lazy" data-original="./showImage/20160201/56af37b4df390.gif" title="柳功权柳体" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"></a>					  
+					  <div class="caption">
+					  <p align="center"><b>柳功权柳体</b></p>
+					  </div>
+					</div>
+				  </div><div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+					<div class="thumbnail">
+					  <a href="javascript:void(0);" class="setfont" data-id="1" role="button" style="background-color:#222222; border-color:#222222"> <img style="width:221px;height:110px;" class="lazy" data-original="./showImage/20160201/56af37a4dff46.gif" title="中山行书字体" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"></a>					  
+					  <div class="caption">
+					  <p align="center"><b>中山行书字体</b></p>
+					  </div>
+					</div>
+				  </div><div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+					<div class="thumbnail">
+					  <a href="javascript:void(0);" class="setfont" data-id="1" role="button" style="background-color:#222222; border-color:#222222"> <img style="width:221px;height:110px;" class="lazy" data-original="./showImage/20160201/56af378e5479c.gif" title="书体坊邓小平字体" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"></a>					  
+					  <div class="caption">
+					  <p align="center"><b>书体坊邓小平字体</b></p>
+					  </div>
+					</div>
+				  </div><div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+					<div class="thumbnail">
+					  <a href="javascript:void(0);" class="setfont" data-id="1" role="button" style="background-color:#222222; border-color:#222222"> <img style="width:221px;height:110px;" class="lazy" data-original="./showImage/20160201/56af3700694db.gif" title="叶根友书法" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"></a>					  
+					  <div class="caption">
+					  <p align="center"><b>叶根友书法</b></p>
+					  </div>
+					</div>
+				  </div><div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+					<div class="thumbnail">
+					  <a href="javascript:void(0);" class="setfont" data-id="1" role="button" style="background-color:#222222; border-color:#222222"> <img style="width:221px;height:110px;" class="lazy" data-original="./showImage/20160201/56af32089aa2b.gif" title="毛泽东字体" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"></a>					  
+					  <div class="caption">
+					  <p align="center"><b>毛泽东字体</b></p>
+					  </div>
+					</div>
+				  </div>	
+</div>
+  </div>
+</div>
+
+<!-- 设计图片 -->
+<div class="container">
+<div class="panel panel-default center-block text-center">
+<a href="https://www.25xt.com/works/tucengyangshi/category-font?from=yishuzi2" target="_blank"><img src="./题2_files/25xtfonts3.jpg" width="1170" height="90" alt="字体设计">  </a> 
+
+</div>
+</div>
+<!-- 尾部导航 -->
+<div class="container">
+<div class="panel panel-default center-block text-center">
+第1页<a href="http://pop.yishuzi.cn/" target="_parent">pop字体</a>.
+第2页<a href="https://www.yishuzi.cn/huati/" target="_parent">花体艺术字</a>.
+第3页<a href="https://www.yishuzi.cn/changyong.php" target="_parent">常用字</a>.
+第4页<a href="https://www.yishuzi.cn/shufa/" target="_parent">书法字</a>.
+第5页<a href="https://www.yishuzi.cn/zhuanti/" target="_parent">篆体字</a>.
+第6页<a href="https://www.yishuzi.cn/shejishi/" target="_parent">设计师字体</a>.
+第7页<a href="https://www.yishuzi.cn/" target="_parent">艺术字</a>.
+第8页<a href="http://yw.yishuzi.cn/" target="_parent">英文字体</a>
+</div>
+</div>
+
+<!-- 底部分类导航 -->
+<div class="main-row">
+<div class="main-row-info">
+			
+<div class="w3ls-grids grid-three">
+<ul>
+<biaoti>站内导航</biaoti>
+<li><a href="https://www.yishuzi.cn/works/Fonteffects" target="_blank"><i></i>艺术字体特效</a></li>
+<li><a href="https://www.yishuzi.cn/works/picfonts" target="_blank"><i></i>图形字体下载</a></li>
+<li><a href="https://www.yishuzi.cn/works/enfonts" target="_blank"><i></i>英文字体下载</a></li>
+<li><a href="https://www.yishuzi.cn/works/zhfonts" target="_blank"><i></i>免费中文字体下载</a></li>
+<li><a href="https://www.yishuzi.cn/sucai" target="_blank"><i></i>艺字网</a></li>
+<li><a href="https://www.yishuzi.cn/allsucai" target="_blank"><i></i>艺字网字体下载推荐</a></li>
+</ul>
+</div>
+				
+<div class="w3ls-grids grid-three">
+<ul>
+<biaoti>站内小工具</biaoti>
+
+<li><a href="https://www.yishuzi.cn/peise/"><i></i>三原色配色表</a></li>
+<li><a href="https://www.yishuzi.cn/peise2/"><i></i>配色演示</a></li>
+<li><a href="http://sheji.yishuzi.cn/"><i></i>字体设计灵感</a></li>
+<li><a href="https://www.yishuzi.cn/yuanchuangsheji/"><i></i>字体设计教程</a></li>
+<li><a href="https://www.yishuzi.cn/yuanchuangsheji/sort/2" target="_blank"><i></i>字体设计方法</a></li>
+<li><a href="https://www.yishuzi.cn/yuanchuangsheji/sort/1" target="_blank"><i></i>字体设计案例</a></li>
+<li><a href="https://www.yishuzi.cn/daohang/" target="_blank"><i></i>字体导航（测试）</a></li>
+<li><a href="https://www.yishuzi.cn/blog/?id=414" target="_blank"><i></i>方正小标宋</a></li>
+
+</ul>
+</div>
+				
+				
+<div class="w3ls-grids grid-three">
+<ul>
+<biaoti>站内链接</biaoti>
+<li><a href="https://www.yishuzi.cn/huati/"><i></i>花体字转换器</a></li>
+<li><a href="https://www.yishuzi.cn/qianming/"><i></i>艺术签名在线生成</a></li>
+<li><a href="https://www.yishuzi.cn/changyong.php"><i></i>常用字体</a></li>
+<li><a href="https://www.yishuzi.cn/zhuanti/"><i></i>篆体字转换器</a></li>
+<li><a href="https://www.yishuzi.cn/shufa/"><i></i>书法字体在线转换</a></li>
+<li><a href="https://www.yishuzi.cn/yishuzi/"><i></i>花鸟字</a></li>
+<li><a href="https://www.yishuzi.cn/shejishi/"><i></i>设计师字体</a></li>
+<li><a href="https://www.yishuzi.cn/"><i></i>变体美术字</a></li>
+<li><a href="http://pop.yishuzi.cn/"><i></i>pop字体</a></li>
+<li><a href="http://yw.yishuzi.cn/"><i></i>英文花体字</a></li>
+<li><a href="http://yw.yishuzi.cn/indexhuati.php"><i></i>英文花体字</a></li>
+</ul>
+</div>
+				
+<div class="w3ls-grids grid-three">
+<ul>
+<biaoti>友情链接</biaoti>
+<li><a href="http://pop.yishuzi.cn/" target="_blank"><i></i>pop字体转换器</a></li>
+<li><a href="http://yw.yishuzi.cn/" target="_blank"><i></i>英文字体转换 </a></li>
+<li><a href="http://sheji.yishuzi.cn/" target="_blank"><i></i>字体设计</a></li>
+<li><a href="https://www.25xt.com/" target="_blank"><i></i>25学堂</a></li>
+<li><a href="http://www.gaohaipeng.com/" target="_blank"><i></i>高海鹏</a></li>
+</ul>
+</div>
+<div class="clear"> </div>
+</div>
+</div>
+
+
+
+<!-- copyright -->
+<div class="copyright">
+<p>
+<a href="https://www.yishuzi.cn/yuanchuangsheji/post-140.html" target="_blank">宣传合作</a> . 
+<a href="https://www.yishuzi.cn/yuanchuangsheji/post-130.html" target="_blank">留言</a> . 
+<a href="https://beian.miit.gov.cn/" target="_blank">闽ICP备17009202号-6</a>
+</p>
+<p>Copyright © 2012~2022.Company <a target="_blank" href="https://www.yishuzi.cn/">艺术字</a> yishuzi.CN All rights reserved. </p>
+<p>注明：此内容系艺术字体生成器根据您输入的的指令自动生成字体的结果，不代表本站赞成被生成网站的内容或立场</p>
+<p>温馨提示:商业使用，请联系字体作者或者字体公司购买后使用，本站只是推广汉字文化，不承担任何责任！请尊重字体公司版权!</p>	
+<script src="./题2_files/hm.js.下载"></script><script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?6d0ae26caf8cd0c5af69ea70f9bcbeb9";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>	
+	
+<div class="container"><div class="panel panel-default center-block text-center" style="display:none;">
+</div>
+</div>
+<div class="modal fade" id="shangbanse" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title" id="myModalLabel">选取字体上半颜色</h4>
+      </div>
+      <div class="modal-body">
+		<ul class="pickerTable"><li style="background:#f00;" hx="f00"></li><li style="background:#ff0" hx="ff0"></li><li style="background:#0f0" hx="0f0"></li><li style="background:#0ff" hx="0ff"></li><li style="background:#00f" hx="00f"></li><li style="background:#f0f" hx="f0f"></li><li style="background:#fff" hx="fff"></li><li style="background:#ebebeb" hx="ebebeb"></li><li style="background:#e1e1e1" hx="e1e1e1"></li><li style="background:#d7d7d7" hx="d7d7d7"></li><li style="background:#cccccc" hx="cccccc"></li><li style="background:#c2c2c2" hx="c2c2c2"></li><li style="background:#b7b7b7" hx="b7b7b7"></li><li style="background:#acacac" hx="acacac"></li><li style="background:#a0a0a0" hx="a0a0a0"></li><li style="background:#959595" hx="959595"></li><li style="background:#ee1d24" hx="ee1d24"></li><li style="background:#fff100" hx="fff100"></li><li style="background:#00a650" hx="00a650"></li><li style="background:#00aeef" hx="00aeef"></li><li style="background:#2f3192" hx="2f3192"></li><li style="background:#ed008c" hx="ed008c"></li><li style="background:#898989" hx="898989"></li><li style="background:#7d7d7d" hx="7d7d7d"></li><li style="background:#707070" hx="707070"></li><li style="background:#626262" hx="626262"></li><li style="background:#555" hx="555"></li><li style="background:#464646" hx="464646"></li><li style="background:#363636" hx="363636"></li><li style="background:#262626" hx="262626"></li><li style="background:#111" hx="111"></li><li style="background:#000" hx="000"></li><li style="background:#f7977a" hx="f7977a"></li><li style="background:#fbad82" hx="fbad82"></li><li style="background:#fdc68c" hx="fdc68c"></li><li style="background:#fff799" hx="fff799"></li><li style="background:#c6df9c" hx="c6df9c"></li><li style="background:#a4d49d" hx="a4d49d"></li><li style="background:#81ca9d" hx="81ca9d"></li><li style="background:#7bcdc9" hx="7bcdc9"></li><li style="background:#6ccff7" hx="6ccff7"></li><li style="background:#7ca6d8" hx="7ca6d8"></li><li style="background:#8293ca" hx="8293ca"></li><li style="background:#8881be" hx="8881be"></li><li style="background:#a286bd" hx="a286bd"></li><li style="background:#bc8cbf" hx="bc8cbf"></li><li style="background:#f49bc1" hx="f49bc1"></li><li style="background:#f5999d" hx="f5999d"></li><li style="background:#f16c4d" hx="f16c4d"></li><li style="background:#f68e54" hx="f68e54"></li><li style="background:#fbaf5a" hx="fbaf5a"></li><li style="background:#fff467" hx="fff467"></li><li style="background:#acd372" hx="acd372"></li><li style="background:#7dc473" hx="7dc473"></li><li style="background:#39b778" hx="39b778"></li><li style="background:#16bcb4" hx="16bcb4"></li><li style="background:#00bff3" hx="00bff3"></li><li style="background:#438ccb" hx="438ccb"></li><li style="background:#5573b7" hx="5573b7"></li><li style="background:#5e5ca7" hx="5e5ca7"></li><li style="background:#855fa8" hx="855fa8"></li><li style="background:#a763a9" hx="a763a9"></li><li style="background:#ef6ea8" hx="ef6ea8"></li><li style="background:#f16d7e" hx="f16d7e"></li><li style="background:#ee1d24" hx="ee1d24"></li><li style="background:#f16522" hx="f16522"></li><li style="background:#f7941d" hx="f7941d"></li><li style="background:#fff100" hx="fff100"></li><li style="background:#8fc63d" hx="8fc63d"></li><li style="background:#37b44a" hx="37b44a"></li><li style="background:#00a650" hx="00a650"></li><li style="background:#00a99e" hx="00a99e"></li><li style="background:#00aeef" hx="00aeef"></li><li style="background:#0072bc" hx="0072bc"></li><li style="background:#0054a5" hx="0054a5"></li><li style="background:#2f3192" hx="2f3192"></li><li style="background:#652c91" hx="652c91"></li><li style="background:#91278f" hx="91278f"></li><li style="background:#ed008c" hx="ed008c"></li><li style="background:#ee105a" hx="ee105a"></li><li style="background:#9d0a0f" hx="9d0a0f"></li><li style="background:#a1410d" hx="a1410d"></li><li style="background:#a36209" hx="a36209"></li><li style="background:#aba000" hx="aba000"></li><li style="background:#588528" hx="588528"></li><li style="background:#197b30" hx="197b30"></li><li style="background:#007236" hx="007236"></li><li style="background:#00736a" hx="00736a"></li><li style="background:#0076a4" hx="0076a4"></li><li style="background:#004a80" hx="004a80"></li><li style="background:#003370" hx="003370"></li><li style="background:#1d1363" hx="1d1363"></li><li style="background:#450e61" hx="450e61"></li><li style="background:#62055f" hx="62055f"></li><li style="background:#9e005c" hx="9e005c"></li><li style="background:#9d0039" hx="9d0039"></li><li style="background:#790000" hx="790000"></li><li style="background:#7b3000" hx="7b3000"></li><li style="background:#7c4900" hx="7c4900"></li><li style="background:#827a00" hx="827a00"></li><li style="background:#3e6617" hx="3e6617"></li><li style="background:#045f20" hx="045f20"></li><li style="background:#005824" hx="005824"></li><li style="background:#005951" hx="005951"></li><li style="background:#005b7e" hx="005b7e"></li><li style="background:#003562" hx="003562"></li><li style="background:#002056" hx="002056"></li><li style="background:#0c004b" hx="0c004b"></li><li style="background:#30004a" hx="30004a"></li><li style="background:#4b0048" hx="4b0048"></li><li style="background:#7a0045" hx="7a0045"></li><li style="background:#7a0026" hx="7a0026"></li></ul>
+<div class="form-group form-inline">
+    <div class="input-group">
+      <div class="input-group-addon">自定义颜色</div>
+      <input id="diy_color" type="text" value="" class="form-control">
+    </div>
+    </div>
+
+      </div>
+      <div class="modal-footer">
+			<button type="button" class="btn btn-primary" data-dismiss="modal">确定</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="xiabanse" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: none;">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title" id="myModalLabel">选取字体下半颜色</h4>
+      </div>
+      <div class="modal-body">
+		<ul class="pickerTable"><li style="background:#f00;" hx="f00"></li><li style="background:#ff0" hx="ff0"></li><li style="background:#0f0" hx="0f0"></li><li style="background:#0ff" hx="0ff"></li><li style="background:#00f" hx="00f"></li><li style="background:#f0f" hx="f0f"></li><li style="background:#fff" hx="fff"></li><li style="background:#ebebeb" hx="ebebeb"></li><li style="background:#e1e1e1" hx="e1e1e1"></li><li style="background:#d7d7d7" hx="d7d7d7"></li><li style="background:#cccccc" hx="cccccc"></li><li style="background:#c2c2c2" hx="c2c2c2"></li><li style="background:#b7b7b7" hx="b7b7b7"></li><li style="background:#acacac" hx="acacac"></li><li style="background:#a0a0a0" hx="a0a0a0"></li><li style="background:#959595" hx="959595"></li><li style="background:#ee1d24" hx="ee1d24"></li><li style="background:#fff100" hx="fff100"></li><li style="background:#00a650" hx="00a650"></li><li style="background:#00aeef" hx="00aeef"></li><li style="background:#2f3192" hx="2f3192"></li><li style="background:#ed008c" hx="ed008c"></li><li style="background:#898989" hx="898989"></li><li style="background:#7d7d7d" hx="7d7d7d"></li><li style="background:#707070" hx="707070"></li><li style="background:#626262" hx="626262"></li><li style="background:#555" hx="555"></li><li style="background:#464646" hx="464646"></li><li style="background:#363636" hx="363636"></li><li style="background:#262626" hx="262626"></li><li style="background:#111" hx="111"></li><li style="background:#000" hx="000"></li><li style="background:#f7977a" hx="f7977a"></li><li style="background:#fbad82" hx="fbad82"></li><li style="background:#fdc68c" hx="fdc68c"></li><li style="background:#fff799" hx="fff799"></li><li style="background:#c6df9c" hx="c6df9c"></li><li style="background:#a4d49d" hx="a4d49d"></li><li style="background:#81ca9d" hx="81ca9d"></li><li style="background:#7bcdc9" hx="7bcdc9"></li><li style="background:#6ccff7" hx="6ccff7"></li><li style="background:#7ca6d8" hx="7ca6d8"></li><li style="background:#8293ca" hx="8293ca"></li><li style="background:#8881be" hx="8881be"></li><li style="background:#a286bd" hx="a286bd"></li><li style="background:#bc8cbf" hx="bc8cbf"></li><li style="background:#f49bc1" hx="f49bc1"></li><li style="background:#f5999d" hx="f5999d"></li><li style="background:#f16c4d" hx="f16c4d"></li><li style="background:#f68e54" hx="f68e54"></li><li style="background:#fbaf5a" hx="fbaf5a"></li><li style="background:#fff467" hx="fff467"></li><li style="background:#acd372" hx="acd372"></li><li style="background:#7dc473" hx="7dc473"></li><li style="background:#39b778" hx="39b778"></li><li style="background:#16bcb4" hx="16bcb4"></li><li style="background:#00bff3" hx="00bff3"></li><li style="background:#438ccb" hx="438ccb"></li><li style="background:#5573b7" hx="5573b7"></li><li style="background:#5e5ca7" hx="5e5ca7"></li><li style="background:#855fa8" hx="855fa8"></li><li style="background:#a763a9" hx="a763a9"></li><li style="background:#ef6ea8" hx="ef6ea8"></li><li style="background:#f16d7e" hx="f16d7e"></li><li style="background:#ee1d24" hx="ee1d24"></li><li style="background:#f16522" hx="f16522"></li><li style="background:#f7941d" hx="f7941d"></li><li style="background:#fff100" hx="fff100"></li><li style="background:#8fc63d" hx="8fc63d"></li><li style="background:#37b44a" hx="37b44a"></li><li style="background:#00a650" hx="00a650"></li><li style="background:#00a99e" hx="00a99e"></li><li style="background:#00aeef" hx="00aeef"></li><li style="background:#0072bc" hx="0072bc"></li><li style="background:#0054a5" hx="0054a5"></li><li style="background:#2f3192" hx="2f3192"></li><li style="background:#652c91" hx="652c91"></li><li style="background:#91278f" hx="91278f"></li><li style="background:#ed008c" hx="ed008c"></li><li style="background:#ee105a" hx="ee105a"></li><li style="background:#9d0a0f" hx="9d0a0f"></li><li style="background:#a1410d" hx="a1410d"></li><li style="background:#a36209" hx="a36209"></li><li style="background:#aba000" hx="aba000"></li><li style="background:#588528" hx="588528"></li><li style="background:#197b30" hx="197b30"></li><li style="background:#007236" hx="007236"></li><li style="background:#00736a" hx="00736a"></li><li style="background:#0076a4" hx="0076a4"></li><li style="background:#004a80" hx="004a80"></li><li style="background:#003370" hx="003370"></li><li style="background:#1d1363" hx="1d1363"></li><li style="background:#450e61" hx="450e61"></li><li style="background:#62055f" hx="62055f"></li><li style="background:#9e005c" hx="9e005c"></li><li style="background:#9d0039" hx="9d0039"></li><li style="background:#790000" hx="790000"></li><li style="background:#7b3000" hx="7b3000"></li><li style="background:#7c4900" hx="7c4900"></li><li style="background:#827a00" hx="827a00"></li><li style="background:#3e6617" hx="3e6617"></li><li style="background:#045f20" hx="045f20"></li><li style="background:#005824" hx="005824"></li><li style="background:#005951" hx="005951"></li><li style="background:#005b7e" hx="005b7e"></li><li style="background:#003562" hx="003562"></li><li style="background:#002056" hx="002056"></li><li style="background:#0c004b" hx="0c004b"></li><li style="background:#30004a" hx="30004a"></li><li style="background:#4b0048" hx="4b0048"></li><li style="background:#7a0045" hx="7a0045"></li><li style="background:#7a0026" hx="7a0026"></li></ul>
+<div class="form-group form-inline">
+    <div class="input-group">
+      <div class="input-group-addon">自定义颜色</div>
+      <input id="diy_vcolor" type="text" value="" class="form-control">
+    </div>
+    </div>
+
+      </div>
+      <div class="modal-footer">
+			<button type="button" class="btn btn-primary" data-dismiss="modal">确定</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="FontColorModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: none;">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title" id="myModalLabel">选取文字的颜色</h4>
+      </div>
+      <div class="modal-body">
+		<ul class="pickerTable"><li style="background:#f00;" hx="#f00"></li><li style="background:#ff0" hx="#ff0"></li><li style="background:#0f0" hx="#0f0"></li><li style="background:#0ff" hx="#0ff"></li><li style="background:#00f" hx="#00f"></li><li style="background:#f0f" hx="#f0f"></li><li style="background:#fff" hx="#fff"></li><li style="background:#ebebeb" hx="#ebebeb"></li><li style="background:#e1e1e1" hx="#e1e1e1"></li><li style="background:#d7d7d7" hx="#d7d7d7"></li><li style="background:#cccccc" hx="#cccccc"></li><li style="background:#c2c2c2" hx="#c2c2c2"></li><li style="background:#b7b7b7" hx="#b7b7b7"></li><li style="background:#acacac" hx="#acacac"></li><li style="background:#a0a0a0" hx="#a0a0a0"></li><li style="background:#959595" hx="#959595"></li><li style="background:#ee1d24" hx="#ee1d24"></li><li style="background:#fff100" hx="#fff100"></li><li style="background:#00a650" hx="#00a650"></li><li style="background:#00aeef" hx="#00aeef"></li><li style="background:#2f3192" hx="#2f3192"></li><li style="background:#ed008c" hx="#ed008c"></li><li style="background:#898989" hx="#898989"></li><li style="background:#7d7d7d" hx="#7d7d7d"></li><li style="background:#707070" hx="#707070"></li><li style="background:#626262" hx="#626262"></li><li style="background:#555" hx="#555"></li><li style="background:#464646" hx="#464646"></li><li style="background:#363636" hx="#363636"></li><li style="background:#262626" hx="#262626"></li><li style="background:#111" hx="#111"></li><li style="background:#000" hx="#000"></li><li style="background:#f7977a" hx="#f7977a"></li><li style="background:#fbad82" hx="#fbad82"></li><li style="background:#fdc68c" hx="#fdc68c"></li><li style="background:#fff799" hx="#fff799"></li><li style="background:#c6df9c" hx="#c6df9c"></li><li style="background:#a4d49d" hx="#a4d49d"></li><li style="background:#81ca9d" hx="#81ca9d"></li><li style="background:#7bcdc9" hx="#7bcdc9"></li><li style="background:#6ccff7" hx="#6ccff7"></li><li style="background:#7ca6d8" hx="#7ca6d8"></li><li style="background:#8293ca" hx="#8293ca"></li><li style="background:#8881be" hx="#8881be"></li><li style="background:#a286bd" hx="#a286bd"></li><li style="background:#bc8cbf" hx="#bc8cbf"></li><li style="background:#f49bc1" hx="#f49bc1"></li><li style="background:#f5999d" hx="#f5999d"></li><li style="background:#f16c4d" hx="#f16c4d"></li><li style="background:#f68e54" hx="#f68e54"></li><li style="background:#fbaf5a" hx="#fbaf5a"></li><li style="background:#fff467" hx="#fff467"></li><li style="background:#acd372" hx="#acd372"></li><li style="background:#7dc473" hx="#7dc473"></li><li style="background:#39b778" hx="#39b778"></li><li style="background:#16bcb4" hx="#16bcb4"></li><li style="background:#00bff3" hx="#00bff3"></li><li style="background:#438ccb" hx="#438ccb"></li><li style="background:#5573b7" hx="#5573b7"></li><li style="background:#5e5ca7" hx="#5e5ca7"></li><li style="background:#855fa8" hx="#855fa8"></li><li style="background:#a763a9" hx="#a763a9"></li><li style="background:#ef6ea8" hx="#ef6ea8"></li><li style="background:#f16d7e" hx="#f16d7e"></li><li style="background:#ee1d24" hx="#ee1d24"></li><li style="background:#f16522" hx="#f16522"></li><li style="background:#f7941d" hx="#f7941d"></li><li style="background:#fff100" hx="#fff100"></li><li style="background:#8fc63d" hx="#8fc63d"></li><li style="background:#37b44a" hx="#37b44a"></li><li style="background:#00a650" hx="#00a650"></li><li style="background:#00a99e" hx="#00a99e"></li><li style="background:#00aeef" hx="#00aeef"></li><li style="background:#0072bc" hx="#0072bc"></li><li style="background:#0054a5" hx="#0054a5"></li><li style="background:#2f3192" hx="#2f3192"></li><li style="background:#652c91" hx="#652c91"></li><li style="background:#91278f" hx="#91278f"></li><li style="background:#ed008c" hx="#ed008c"></li><li style="background:#ee105a" hx="#ee105a"></li><li style="background:#9d0a0f" hx="#9d0a0f"></li><li style="background:#a1410d" hx="#a1410d"></li><li style="background:#a36209" hx="#a36209"></li><li style="background:#aba000" hx="#aba000"></li><li style="background:#588528" hx="#588528"></li><li style="background:#197b30" hx="#197b30"></li><li style="background:#007236" hx="#007236"></li><li style="background:#00736a" hx="#00736a"></li><li style="background:#0076a4" hx="#0076a4"></li><li style="background:#004a80" hx="#004a80"></li><li style="background:#003370" hx="#003370"></li><li style="background:#1d1363" hx="#1d1363"></li><li style="background:#450e61" hx="#450e61"></li><li style="background:#62055f" hx="#62055f"></li><li style="background:#9e005c" hx="#9e005c"></li><li style="background:#9d0039" hx="#9d0039"></li><li style="background:#790000" hx="#790000"></li><li style="background:#7b3000" hx="#7b3000"></li><li style="background:#7c4900" hx="#7c4900"></li><li style="background:#827a00" hx="#827a00"></li><li style="background:#3e6617" hx="#3e6617"></li><li style="background:#045f20" hx="#045f20"></li><li style="background:#005824" hx="#005824"></li><li style="background:#005951" hx="#005951"></li><li style="background:#005b7e" hx="#005b7e"></li><li style="background:#003562" hx="#003562"></li><li style="background:#002056" hx="#002056"></li><li style="background:#0c004b" hx="#0c004b"></li><li style="background:#30004a" hx="#30004a"></li><li style="background:#4b0048" hx="#4b0048"></li><li style="background:#7a0045" hx="#7a0045"></li><li style="background:#7a0026" hx="#7a0026"></li></ul>
+<div class="form-group form-inline">
+    <div class="input-group">
+      <div class="input-group-addon">自定义颜色</div>
+      <input id="diy_fontcolor" type="text" value="" class="form-control">
+    </div>
+    </div>
+
+      </div>
+      <div class="modal-footer">
+			<button type="button" class="btn btn-primary" data-dismiss="modal">确定</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="BackgroundColorModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title" id="myModalLabel">选取背景的颜色与功能</h4>
+      </div>
+      <div class="modal-body">
+		<ul class="pickerTable"><li style="background:#f00;" hx="#f00"></li><li style="background:#ff0" hx="#ff0"></li><li style="background:#0f0" hx="#0f0"></li><li style="background:#0ff" hx="#0ff"></li><li style="background:#00f" hx="#00f"></li><li style="background:#f0f" hx="#f0f"></li><li style="background:#fff" hx="#fff"></li><li style="background:#ebebeb" hx="#ebebeb"></li><li style="background:#e1e1e1" hx="#e1e1e1"></li><li style="background:#d7d7d7" hx="#d7d7d7"></li><li style="background:#cccccc" hx="#cccccc"></li><li style="background:#c2c2c2" hx="#c2c2c2"></li><li style="background:#b7b7b7" hx="#b7b7b7"></li><li style="background:#acacac" hx="#acacac"></li><li style="background:#a0a0a0" hx="#a0a0a0"></li><li style="background:#959595" hx="#959595"></li><li style="background:#ee1d24" hx="#ee1d24"></li><li style="background:#fff100" hx="#fff100"></li><li style="background:#00a650" hx="#00a650"></li><li style="background:#00aeef" hx="#00aeef"></li><li style="background:#2f3192" hx="#2f3192"></li><li style="background:#ed008c" hx="#ed008c"></li><li style="background:#898989" hx="#898989"></li><li style="background:#7d7d7d" hx="#7d7d7d"></li><li style="background:#707070" hx="#707070"></li><li style="background:#626262" hx="#626262"></li><li style="background:#555" hx="#555"></li><li style="background:#464646" hx="#464646"></li><li style="background:#363636" hx="#363636"></li><li style="background:#262626" hx="#262626"></li><li style="background:#111" hx="#111"></li><li style="background:#000" hx="#000"></li><li style="background:#f7977a" hx="#f7977a"></li><li style="background:#fbad82" hx="#fbad82"></li><li style="background:#fdc68c" hx="#fdc68c"></li><li style="background:#fff799" hx="#fff799"></li><li style="background:#c6df9c" hx="#c6df9c"></li><li style="background:#a4d49d" hx="#a4d49d"></li><li style="background:#81ca9d" hx="#81ca9d"></li><li style="background:#7bcdc9" hx="#7bcdc9"></li><li style="background:#6ccff7" hx="#6ccff7"></li><li style="background:#7ca6d8" hx="#7ca6d8"></li><li style="background:#8293ca" hx="#8293ca"></li><li style="background:#8881be" hx="#8881be"></li><li style="background:#a286bd" hx="#a286bd"></li><li style="background:#bc8cbf" hx="#bc8cbf"></li><li style="background:#f49bc1" hx="#f49bc1"></li><li style="background:#f5999d" hx="#f5999d"></li><li style="background:#f16c4d" hx="#f16c4d"></li><li style="background:#f68e54" hx="#f68e54"></li><li style="background:#fbaf5a" hx="#fbaf5a"></li><li style="background:#fff467" hx="#fff467"></li><li style="background:#acd372" hx="#acd372"></li><li style="background:#7dc473" hx="#7dc473"></li><li style="background:#39b778" hx="#39b778"></li><li style="background:#16bcb4" hx="#16bcb4"></li><li style="background:#00bff3" hx="#00bff3"></li><li style="background:#438ccb" hx="#438ccb"></li><li style="background:#5573b7" hx="#5573b7"></li><li style="background:#5e5ca7" hx="#5e5ca7"></li><li style="background:#855fa8" hx="#855fa8"></li><li style="background:#a763a9" hx="#a763a9"></li><li style="background:#ef6ea8" hx="#ef6ea8"></li><li style="background:#f16d7e" hx="#f16d7e"></li><li style="background:#ee1d24" hx="#ee1d24"></li><li style="background:#f16522" hx="#f16522"></li><li style="background:#f7941d" hx="#f7941d"></li><li style="background:#fff100" hx="#fff100"></li><li style="background:#8fc63d" hx="#8fc63d"></li><li style="background:#37b44a" hx="#37b44a"></li><li style="background:#00a650" hx="#00a650"></li><li style="background:#00a99e" hx="#00a99e"></li><li style="background:#00aeef" hx="#00aeef"></li><li style="background:#0072bc" hx="#0072bc"></li><li style="background:#0054a5" hx="#0054a5"></li><li style="background:#2f3192" hx="#2f3192"></li><li style="background:#652c91" hx="#652c91"></li><li style="background:#91278f" hx="#91278f"></li><li style="background:#ed008c" hx="#ed008c"></li><li style="background:#ee105a" hx="#ee105a"></li><li style="background:#9d0a0f" hx="#9d0a0f"></li><li style="background:#a1410d" hx="#a1410d"></li><li style="background:#a36209" hx="#a36209"></li><li style="background:#aba000" hx="#aba000"></li><li style="background:#588528" hx="#588528"></li><li style="background:#197b30" hx="#197b30"></li><li style="background:#007236" hx="#007236"></li><li style="background:#00736a" hx="#00736a"></li><li style="background:#0076a4" hx="#0076a4"></li><li style="background:#004a80" hx="#004a80"></li><li style="background:#003370" hx="#003370"></li><li style="background:#1d1363" hx="#1d1363"></li><li style="background:#450e61" hx="#450e61"></li><li style="background:#62055f" hx="#62055f"></li><li style="background:#9e005c" hx="#9e005c"></li><li style="background:#9d0039" hx="#9d0039"></li><li style="background:#790000" hx="#790000"></li><li style="background:#7b3000" hx="#7b3000"></li><li style="background:#7c4900" hx="#7c4900"></li><li style="background:#827a00" hx="#827a00"></li><li style="background:#3e6617" hx="#3e6617"></li><li style="background:#045f20" hx="#045f20"></li><li style="background:#005824" hx="#005824"></li><li style="background:#005951" hx="#005951"></li><li style="background:#005b7e" hx="#005b7e"></li><li style="background:#003562" hx="#003562"></li><li style="background:#002056" hx="#002056"></li><li style="background:#0c004b" hx="#0c004b"></li><li style="background:#30004a" hx="#30004a"></li><li style="background:#4b0048" hx="#4b0048"></li><li style="background:#7a0045" hx="#7a0045"></li><li style="background:#7a0026" hx="#7a0026"></li></ul>
+<div class="form-group form-inline">
+    <div class="input-group">
+      <div class="input-group-addon">自定义颜色</div>
+      <input id="diy_backgroundcolor" type="text" value="" class="form-control">
+    </div>
+</div>   
+  <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">确定</button>
+</div>
+
+	<script src="./题2_files/jquery.min.js.下载"></script>
+	<script src="./题2_files/bootstrap.min.js.下载"></script>
+	<script src="./题2_files/keySwitch.js.下载"></script>
+	<script src="./题2_files/jquery.lazyload.min.js.下载"></script>
+	<script language="javascript" type="text/javascript" src="./题2_files/js.js.下载"></script>
+	<script>
+  $(function() {
+      $("img.lazy").lazyload({effect: "fadeIn"});
+  });
+</script>
+
+
+
+</div></div></div></div></div></div></body></html>

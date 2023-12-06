@@ -1,0 +1,93 @@
+var pageLoad = function(){
+	var paramArr = location.href.split("/");
+	var font = paramArr[(paramArr.length)-1];
+	$("#ziti option").each(function(){
+		var _this = $(this);
+		if(encodeURI(_this.attr("font_id")) == font){
+			_this.attr("selected", "true");
+		}
+	});
+}
+$(function(){
+	pageLoad();
+	
+	
+});
+$(".submit").bind("click", function(){
+	
+	fetch();
+});
+
+
+$("#diy_vcolor").blur(function(){
+	$("#vcolor").val($(this).val());
+});
+
+$("#diy_fontcolor").blur(function(){
+	$("#fontcolor").val($(this).val());
+});
+
+$("#diy_backgroundcolor").blur(function(){
+	$("#colors").val($(this).val());
+});
+
+$(".setfont").bind("click", function(){
+	var font = $.trim($(this).parents(".thumbnail").find("img").attr("title"));
+	//var font = $.trim($(this).parents("tr").next().find("td").eq(index).find("p span").text());
+	//$("#per").val(font);
+	$("#ziti option").each(function(){
+		var value = $(this).val();
+		if($.trim($(this).text()) == font){
+			$("#ziti").val(value);
+			$('html,body').animate({scrollTop: '0px'}, 1000);
+			fetch();
+		}
+	});
+});
+
+function fetch(){
+	//document.getElementById('logo_image').src ="./images/wait.gif";
+	var font=encodeURI(document.getElementById("ziti").value);
+	var text=encodeURI(document.getElementById("text").value);
+	var alpha=encodeURI(document.getElementById("alpha").value);
+	var vcolor=encodeURI(document.getElementById("vcolor").value);
+	var sizes=encodeURI(document.getElementById("sizes").value);
+	var shadow=encodeURI(document.getElementById("shadow").value);
+	var mirror=encodeURI(document.getElementById("mirror").value);
+	var fontcolor=encodeURI(document.getElementById("fontcolor").value);
+	var colors=encodeURI(document.getElementById("colors").value);
+	var output = "png";
+	document.getElementById('SaveImg').src ="image."+output+"?fsize="+sizes+"&font="+font+"&text="+text+"&mirror="+mirror+"&color="+fontcolor.substr(1, fontcolor.length)+"&vcolor="+vcolor+"&bgcolor="+colors.substr(1, colors.length)+"&alpha="+alpha+"&output="+output+"&spacing=4&shadow="+shadow+"&transparent=no&icon=no&iconic=&top_spacing=5&left_spacing=6&icon_size=48";
+	$("#display_image").show();
+	return false;
+}
+
+
+$("#xiabanse .pickerTable li").bind("click", function(){
+	$("#diy_vcolor").val($(this).attr("hx"));
+	$("#vcolor").val($(this).attr("hx"));
+});
+
+$("#FontColorModal .pickerTable li").bind("click", function(){
+	$("#diy_fontcolor").val($(this).attr("hx"));
+	$("#fontcolor").val($(this).attr("hx"));
+});
+$("#BackgroundColorModal .pickerTable li").bind("click", function(){
+	$("#diy_backgroundcolor").val($(this).attr("hx"));
+	$("#colors").val($(this).attr("hx"));
+});
+
+var param = location.href.split("/");
+param = param[(param.length)-1]
+if(param.indexOf(".") != -1){
+	param = param.split(".")[0];
+	$("ul.navbar-nav li a").each(function(){
+		var _this = $(this);
+		if(_this.attr("type_id") == param){
+			_this.parent().addClass("active");
+		}
+	
+	});
+}else{
+	$("ul.navbar-nav li").eq(0).addClass("active");
+}
